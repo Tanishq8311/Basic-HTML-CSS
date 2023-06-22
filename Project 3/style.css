@@ -1,0 +1,118 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    /* font-weight: 400; */
+    line-height: 1.8em;
+    color:#666;
+}
+.section1{
+    background-image: url(images/img1.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section2{
+    background-image: url(images/img2.jpg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section3{
+    background-image: url(images/img3.jpg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section4{
+    background-image: url(images/img1.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.textbg{
+    background-color: black;
+    padding: 12px;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size:50px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+.section1-text{
+    text-align: center;
+    padding: 30px;
+}
+.section2-text{
+    text-align: center;
+    padding:30px;
+    background-color: grey;
+    color: white;
+}
+.section3-text{
+    text-align: center;
+    padding:30px;
+    background-color: grey;
+    color: white;
+}
+.section2-text h2{
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 50;
+}
+.section1-text h2{
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 50;
+}
+.ptext1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size:50px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+.textbg1{
+    padding: 12px;
+    color: white;
+}
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size:50px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+.textbg2{
+    padding: 12px;
+    color: white;
+}
+.section3-text h2{
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-weight: 50;
+}
