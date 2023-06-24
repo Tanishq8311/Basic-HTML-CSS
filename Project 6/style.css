@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root{
+    --purple500:#281154;
+    --purple300:#270082;
+    --purple600:#1b0058;
+    --red600:#dc0000;
+    --body:#f9f6ff;
+    --max-width:1200px;  
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+header{
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.container{
+    background-color: var(--purple300);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+
+
+   
+} 
+.left{
+    font-size: 22px;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: #f9f6ff;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    gap:25px;
+    font-weight: 100;
+    
+}
+.li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+.li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+
+}
+.hero-section{
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-section h1{
+    font-size: 96px;
+}
+.hero-section h4{
+    font-size: 32px;
+}
+.music-section{
+    padding: 50px;
+    background-color: var(--purple500);
+
+}
+.music-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.ipad-iphone-img{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+}
+.trial-btn{
+    color: white;
+    background-color: #dc0000;
+}
+.sec-btn{
+    color: white;
+    background-color: var(--purple300);
+}
+.about-section{
+    margin-top: 400px;
+}
+.about-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.about-con h4{
+    text-align: center;
+    padding: 0 40px;
+}
+.video-section{
+    background-image: url(images/video.png);
+    min-height: 600px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+}
+
+.vid-con{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top:-200px ;
+}
+/* p{
+    padding:0 30px;
+    text-align: center;
+} */
+.hero-section,.video-section{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gift-section{
+    display: flex;
+    justify-content:center;
+    margin: 100px ;
+    gap: 50px;
+}
+.gift-con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    justify-content: center;
+    margin-left: 20px;
+}
+.gift-con h1{
+    font-size: 32px;
+    font-weight: 400;
+    font-style: oblique;
+}
+.footer-upper {
+    background-color: var(--purple300);
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footer-upper .container {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  
+  .footer-upper h4 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+  }
+  .footer-lower {
+    background-color: var(--purple600);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .gift-section {
+    scroll-margin: 120px;
+  }
+  .footer-links ul {
+    list-style: none;
+  }
